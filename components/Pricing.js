@@ -23,14 +23,14 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Choose Your Plan
+              Выберите свой тарифный план
+              
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Let's choose the package that is best for you and explore it happily
-              and cheerfully.
+              Давайте выберем пакет, который лучше всего подходит для вас, и воспользуемся им с удовольствием.
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
@@ -54,27 +54,31 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                  Скучный Тариф
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    Unlimited Bandwitch
+                    Нет рекламы и НЕ БУДЕТ! WW
                   </li>
                   <li className="relative check custom-list my-2">
-                    Encrypted Connection
+                    Огромное Количество  Подключенных Девайсов
                   </li>
                   <li className="relative check custom-list my-2">
-                    No Traffic Logs
+                    Не замедляет основную сеть
                   </li>
                   <li className="relative check custom-list my-2">
-                    Works on All Devices
+                    Телевизор, планшеты, ноутбуки
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    РУБ. 690 <span className="text-black-500"><br/>1 мес</span>
                   </p>
-                  <ButtonOutline>Select</ButtonOutline>
+                  <ButtonPrimary>
+  <a href="https://web.telegram.org/a/#7295487724" target="_blank" rel="noopener noreferrer">
+    Выбрать
+  </a>
+</ButtonPrimary>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -98,30 +102,31 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+                Стандартный Тариф{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-              </ul>
+                  <li className="relative check custom-list my-2">
+                    Нет рекламы и НЕ БУДЕТ! WW
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Огромное Количество  Подключенных Девайсов
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Не замедляет основную сеть
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Телевизор, планшеты, ноутбуки
+                  </li>
+                </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                  РУБ. 1 799 <span className="text-black-500"><br/>3 мес</span>
                 </p>
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonPrimary>
+  <a href="https://web.telegram.org/a/#7295487724" target="_blank" rel="noopener noreferrer">
+    Выбрать
+  </a>
+</ButtonPrimary>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -145,34 +150,32 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
+                Сочный Тариф WW{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-                <li className="relative check custom-list my-2">
-                  Get New Features{" "}
-                </li>
-              </ul>
+                  <li className="relative check custom-list my-2">
+                    Нет рекламы и НЕ БУДЕТ! WW
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Огромное Количество  Подключенных Девайсов
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Не замедляет основную сеть
+                  </li>
+                  <li className="relative check custom-list my-2">
+                    Телевизор, планшеты, ноутбуки
+                  </li>
+                </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                  РУБ. 7.499<span className="text-black-500"><br/>12 мес</span>
                 </p>
 
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonPrimary>
+  <a href="https://web.telegram.org/a/#7295487724" target="_blank" rel="noopener noreferrer">
+    Выбрать
+  </a>
+</ButtonPrimary>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -183,11 +186,12 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Стабильная сеть от WW{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+            Пользуйтесь везде, чтобы вам было проще при перемещении локаций.
+
+
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
@@ -231,31 +235,30 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-              Trusted by Thousands of Happy Customer{" "}
+              Дети скажут нам спасибо за ролики на ютубе! :){" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              These are the stories of our customers who have joined us with great
-              pleasure when using this crazy feature.
+              
             </motion.p>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="w-full flex flex-col py-12">
-            <motion.div variants={scrollAnimation}>
-              <Testimoni />
-            </motion.div>
-          </ScrollAnimationWrapper>
+          
           <ScrollAnimationWrapper className="relative w-full mt-16">
             <motion.div variants={scrollAnimation} custom={{duration: 3}}>
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                    Subscribe Now for <br /> Get Special Features!
+                    Напиши нам сейчас!  <br /> Получи специальное предложение!
                   </h5>
-                  <p>Let's subscribe with us and find the fun.</p>
-                </div>
-                <ButtonPrimary>Get Started</ButtonPrimary>
+                  <p>Let's go WWWWWW</p>
+                  </div>
+                <ButtonPrimary>
+  <a href="https://web.telegram.org/a/#7295487724" target="_blank" rel="noopener noreferrer">
+    Оставить заявку
+  </a>
+</ButtonPrimary>
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
